@@ -71,7 +71,6 @@ const Navbar = () => {
         <a href="https://www.instagram.com/your-username" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </a>
-        {/* Add the Resume icon */}
         <a href="https://drive.google.com/file/d/1fcSlrDhJl6BYlhddauZPRTZV8qx8jDDu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <TbFileCv title="View/Download Resume" />
         </a>
