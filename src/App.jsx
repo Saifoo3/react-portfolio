@@ -1,4 +1,5 @@
 import React from 'react'
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import Aboutme from './components/Aboutme';
@@ -24,6 +25,7 @@ import Contact from './components/Contact';
         <Project />
         <Contact />
       </div>
+      <SpeedInsights />
     </div>
    )
  }
