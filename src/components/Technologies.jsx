@@ -54,7 +54,7 @@ const Technologies = () => {
           <div className="rounded-lg shadow-lg bg-white p-6">
             <RiReactjsLine className="text-6xl text-cyan-500" />
           </div>
-          <p className="mt-4 text-md text-gray-300">React</p>
+          <p className="mt-4 text-md text-gray-100">React</p>
         </motion.div>
 
         {/* React Native Icon */}
@@ -67,7 +67,7 @@ const Technologies = () => {
           <div className="rounded-lg shadow-lg bg-white p-6">
             <TbBrandReactNative className="text-6xl text-blue-500" />
           </div>
-          <p className="mt-4 text-md text-gray-300">React Native</p>
+          <p className="mt-4 text-md text-gray-100">React Native</p>
         </motion.div>
 
         {/* Node.js Icon */}
@@ -80,7 +80,7 @@ const Technologies = () => {
           <div className="rounded-lg shadow-lg bg-white p-6">
             <FaNodeJs className="text-6xl text-green-500" />
           </div>
-          <p className="mt-4 text-md text-gray-300">Node.js</p>
+          <p className="mt-4 text-md text-gray-100">Node.js</p>
         </motion.div>
 
         {/* Next.js Icon */}
@@ -93,7 +93,7 @@ const Technologies = () => {
           <div className="rounded-lg shadow-lg bg-white p-6">
             <TbBrandNextjs className="text-6xl text-gray-800" />
           </div>
-          <p className="mt-4 text-md text-gray-300">Next.js</p>
+          <p className="mt-4 text-md text-gray-100">Next.js</p>
         </motion.div>
 
         {/* MongoDB Icon */}
@@ -106,7 +106,7 @@ const Technologies = () => {
           <div className="rounded-lg shadow-lg bg-white p-6">
             <SiMongodb className="text-6xl text-green-600" />
           </div>
-          <p className="mt-4 text-md text-gray-300">MongoDB</p>
+          <p className="mt-4 text-md text-gray-100">MongoDB</p>
         </motion.div>
 
         {/* MySQL Icon */}
@@ -119,7 +119,7 @@ const Technologies = () => {
           <div className="rounded-lg shadow-lg bg-white p-6">
             <SiMysql className="text-6xl text-orange-600" />
           </div>
-          <p className="mt-4 text-md text-gray-300">MySQL</p>
+          <p className="mt-4 text-md text-gray-100">MySQL</p>
         </motion.div>
 
         {/* Power BI Icon */}
@@ -132,7 +132,7 @@ const Technologies = () => {
           <div className="rounded-lg shadow-lg bg-white p-6">
             <SiPowerbi className="text-6xl text-yellow-500" />
           </div>
-          <p className="mt-4 text-md text-gray-300">Power BI</p>
+          <p className="mt-4 text-md text-gray-100">Power BI</p>
         </motion.div>
 
         {/* Git Icon */}
@@ -145,7 +145,7 @@ const Technologies = () => {
           <div className="rounded-lg shadow-lg bg-white p-6">
             <SiGit className="text-6xl text-red-500" />
           </div>
-          <p className="mt-4 text-md text-gray-300">Git</p>
+          <p className="mt-4 text-md text-gray-100">Git</p>
         </motion.div>
 
         {/* Linux Icon */}
@@ -158,7 +158,7 @@ const Technologies = () => {
           <div className="rounded-lg shadow-lg bg-white p-6">
             <FaLinux className="text-6xl text-yellow-500" />
           </div>
-          <p className="mt-4 text-md text-gray-300">Linux</p>
+          <p className="mt-4 text-md text-gray-100">Linux</p>
         </motion.div>
       </motion.div>
     </div>
