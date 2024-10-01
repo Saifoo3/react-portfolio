@@ -17,9 +17,9 @@ const Navbar = () => {
         <a href="https://github.com/Saifoo3?tab=repositories" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
-        </a>
+        </a> */}
         <a href="https://drive.google.com/file/d/1fcSlrDhJl6BYlhddauZPRTZV8qx8jDDu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <TbFileCv title="View/Download Resume" />
         </a>
