@@ -1,5 +1,6 @@
 import React from 'react'
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import Aboutme from './components/Aboutme';
@@ -17,6 +18,8 @@ import Contact from './components/Contact';
       </div>
 
       <div className="container mx-auto px-8">
+        <SpeedInsights />
+        <Analytics/>
         <Navbar />
         <Hero />
         <Aboutme />
@@ -25,7 +28,6 @@ import Contact from './components/Contact';
         <Project />
         <Contact />
       </div>
-      <SpeedInsights />
     </div>
    )
  }
