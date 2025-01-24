@@ -42,11 +42,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "CV Portfolio Website",
-    image: project1,
+    title: "ClariQuest: Business Intelligence Survey Platform",
+    image: project1, // Replace with the appropriate image reference
     description:
-      "I developed a personal CV portfolio website to showcase my resume, projects, and skills. The website features a modern UI/UX design with smooth animations using Framer Motion, and is fully responsive across all devices. I used React for the front-end, Tailwind CSS for styling, and integrated Framer Motion for animations, creating a dynamic and interactive user experience.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "Mordern UI/UX"],
+      "I designed and developed ClariQuest, a business intelligence survey platform that streamlines data collection and analysis to deliver actionable insights. The platform features a modern and intuitive interface built with Streamlit and a reliable backend powered by MySQL. Its modular architecture includes a Survey Application for collecting critical business data and a Recommendation Engine for generating optimized strategies. Developed using Python, ClariQuest bridges the gap between structured and unstructured data, empowering businesses to make smarter, data-driven decisions.",
+    technologies: ["Python", "Streamlit", "MySQL", "Recommendation Engine", "Survey Application"],
+    
   },
   {
     title: "Paimon Virtual Assistant",
