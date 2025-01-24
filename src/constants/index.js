@@ -42,12 +42,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "ClariQuest: Business Intelligence Survey Platform",
-    image: project1, // Replace with the appropriate image reference
-    description:
-      "I designed and developed ClariQuest, a business intelligence survey platform that streamlines data collection and analysis to deliver actionable insights. The platform features a modern and intuitive interface built with Streamlit and a reliable backend powered by MySQL. Its modular architecture includes a Survey Application for collecting critical business data and a Recommendation Engine for generating optimized strategies. Developed using Python, ClariQuest bridges the gap between structured and unstructured data, empowering businesses to make smarter, data-driven decisions.",
-    technologies: ["Python", "Streamlit", "MySQL", "Recommendation Engine", "Survey Application"],
-    
+      title: "ClariQuest: Business Intelligence Survey Platform",
+      image: project1, // Replace with the correct image reference
+      description:
+        "ClariQuest is a business intelligence survey platform designed to streamline data-driven decision-making. The platform collects, analyzes, and recommends strategies based on survey data, helping businesses optimize their operations. It features a modular architecture consisting of a Survey Application for gathering key business insights and a Recommendation Engine for generating optimized strategies. Built with Python, Streamlit, and MySQL, ClariQuest provides an interactive and dynamic user experience, making business intelligence more accessible and effective.",
+      technologies: ["Python", "Streamlit", "MySQL", "Recommendation Engine", "Survey Application"],
   },
   {
     title: "Paimon Virtual Assistant",
