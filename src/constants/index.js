@@ -43,7 +43,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
       title: "ClariQuest: Business Intelligence Survey Platform",
-      image: project1, // Replace with the correct image reference
+      image: project1, 
       description:
         "ClariQuest is a business intelligence survey platform designed to streamline data-driven decision-making. The platform collects, analyzes, and recommends strategies based on survey data, helping businesses optimize their operations. It features a modular architecture consisting of a Survey Application for gathering key business insights and a Recommendation Engine for generating optimized strategies. Built with Python, Streamlit, and MySQL, ClariQuest provides an interactive and dynamic user experience, making business intelligence more accessible and effective.",
       technologies: ["Python", "Streamlit", "MySQL", "Recommendation Engine", "Survey Application"],
