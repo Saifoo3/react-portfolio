@@ -182,7 +182,7 @@
 // export default Technologies;
 
 
-import { FaPython } from "react-icons/fa";
+import { DiPython } from "react-icons/di";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandReactNative, TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb, SiMysql, SiPowerbi, SiGit } from "react-icons/si";
@@ -190,7 +190,7 @@ import { FaNodeJs, FaLinux } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const technologies = [
-  { icon: <FaPython className="text-7xl text-blue-500" />, name: "Python" },
+  { icon: <DiPython className="text-7xl text-blue-500" />, name: "Python" },
   { icon: <RiReactjsLine className="text-7xl text-cyan-500" />, name: "React" },
   { icon: <TbBrandReactNative className="text-7xl text-blue-500" />, name: "React Native" },
   { icon: <FaNodeJs className="text-7xl text-green-500" />, name: "Node.js" },
@@ -213,12 +213,13 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-900 pb-24 bg-gradient-to-b from-gray-900 to-black text-white">
-      <motion.h1
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: -100 }}
-        transition={{ duration: 1.5 }}
-        className="my-20 text-center text-5xl font-bold tracking-wide"
+    <div className="border-b border-neutral-900 pb-24 ">
+      {/* Heading with entry animation */}
+      <motion.h1 
+        whileInView={{ opacity: 1, y: 0 }} 
+        initial={{ opacity: 0, y: -100 }} 
+        transition={{ duration: 1.5 }} 
+        className="my-20 text-center text-4xl"
       >
         Technologies
       </motion.h1>
