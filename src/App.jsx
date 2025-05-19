@@ -24,7 +24,7 @@ import Contact from './components/Contact';
         <Hero />
         <Aboutme />
         <Technologies />
-        {/* <Experience /> */}
+        <Experience />
         <Project />
         <Contact />
       </div>

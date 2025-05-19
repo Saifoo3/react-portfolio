@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </a> */}
-        <a href="https://drive.google.com/file/d/1GBX2Djc9wim9hYAMTqVlsgcXZ0Lp7rmU/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1H9yAIZd3rfQZ45kJAcsxRJlNUXUn2LJ_/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <TbFileCv title="View/Download Resume" />
         </a>
       </div>
