@@ -15,7 +15,7 @@ export const EXPERIENCES = [
     role: "Networks & Security Engineer Intern",
     company: "Azizi Developments – Dubai, UAE",
     description: `Worked on enterprise network infrastructure and cybersecurity operations in a corporate environment. Gained practical experience in configuring routers, setting up secure VPN tunnels for new site integrations, and managing network traffic. Assisted in monitoring and updating firewall policies using SmartConsole, while learning best practices for securing internal and external systems across a large-scale network.`,
-    technologies: ["Networking", "VPN", "Firewall", "SmartConsole", "Microsoft Azure"],
+    technologies: ["Networking", "VPN", "Firewall", "SmartConsole","\n", "Microsoft Azure"],
   },
   // {
   //   year: "2022 - 2023",
